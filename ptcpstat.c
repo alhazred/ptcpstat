@@ -26,7 +26,7 @@
  * Copyright (c) 2013 Joyent, Inc.  All Rights reserved.
  */
 /*
- * Simple pfiles's based utility to get process id attached with particular port in illumos 
+ * Pfiles-based utility to get process id attached with particular port in illumos 
  * Copyright (c) 2015 Nexenta Systems Inc
  */
 
