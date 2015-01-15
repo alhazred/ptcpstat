@@ -1,4 +1,4 @@
-Simple pfiles's based utility to get process id attached with particular port in illumos:
+Simple pfiles-based utility to get process id attached with particular port in illumos:
 
 # ./ptcpstat
 PROTO           IP               PORT   PID    USER     COMMAND
