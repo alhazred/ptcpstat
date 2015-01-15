@@ -1,0 +1,19 @@
+Simple pfiles's based utility to get process id attached with particular port in illumos:
+
+# ./ptcpstat
+PROTO           IP               PORT   PID    USER     COMMAND
+--------  -------------------    ----- ------ -------- ------------------
+AF_INET   127.0.0.1              25    692    root      /usr/lib/smtp/sendmail/sendmail -bl -q15m
+AF_INET6  ::1                    25    692    root      /usr/lib/smtp/sendmail/sendmail -bl -q15m
+AF_INET   127.0.0.1              587   692    root      /usr/lib/smtp/sendmail/sendmail -bl -q15m
+AF_INET6  ::                     22    605    root      /usr/lib/ssh/sshd
+AF_INET6  ::                     0     495    root      /usr/lib/inet/in.ndpd
+AF_INET   0.0.0.0                520   637    root      /usr/sbin/in.routed
+AF_INET   0.0.0.0                0     637    root      /usr/sbin/in.routed
+AF_INET   0.0.0.0                10004 685    root      /usr/bin/python2.6 /usr/lib/pkg.depotd --cfg svc:/application/pkg/server:test
+AF_INET   0.0.0.0                10000 9354   root      /usr/bin/python2.6 /usr/lib/pkg.depotd --cfg svc:/application/pkg/server:zfs
+AF_INET6  ::ffff:198.168.1.1     22    2315   root      /usr/lib/ssh/sshd
+AF_INET6  ::ffff:10.8.0.30       56027 2315   root      /usr/lib/ssh/sshd
+AF_INET   0.0.0.0                80    1402   root      /usr/bin/python2.6 /usr/lib/pkg.depotd --cfg svc:/application/pkg/server:defaul
+AF_INET6  ::ffff:198.168.1.1     22    2314   root      /usr/lib/ssh/sshd
+AF_INET6  ::ffff:10.8.0.30       56027 2314   root      /usr/lib/ssh/sshd
